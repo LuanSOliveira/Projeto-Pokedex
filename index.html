@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="icon" href="./imagens/favicon.ico">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Pokedex</title>
+</head>
+<body id="fundo">
+    <header>
+        <h1 class="titulo">POKÉDEX</h1>
+        <h2 class="mensagem">Escolha uma geração</h2>
+        <div>
+            <button class="btn-gen" id="btn-gen1" value=151>Gen 1</button>
+            <button class="btn-gen" id="btn-gen2" value=251>Gen 2</button>
+            <button class="btn-gen" id="btn-gen3" value=386>Gen 3</button>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="selecao-poke" id="select-poke">
+                <select name="" id="selecao-lista"></select>
+                <button class="btn-buscar" id="btn-buscar">Buscar</button>
+            </div>
+            <div class="informacoes-poke">
+                <div class="container-info">
+                    <h2 class="titulo-inf">INFORMAÇÕES</h2>
+                    <ul class="info-status">
+                        <li class="status" id="status-vida">Vida:</li>
+                        <li class="status" id="status-ataque">Ataque:</li>
+                        <li class="status" id="status-defesa">Defesa:</li>
+                        <li class="status" id="status-spataque">Sp. Ataque:</li>
+                        <li class="status" id="status-spdefesa">Sp. Defesa:</li>
+                        <li class="status" id="status-velocidade">Velocidade:</li>
+                    </ul>
+                    <div class="tipo-pokemon" id="tipo-poke">
+                        <h2 class="titulo-tipo">Tipo:</h2>
+                    </div>
+                </div>
+                <div id="img-poke"></div>                
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3 class="titulo-criador">Criador:</h3>
+        <a class="link-criador" href="https://github.com/LuanSOliveira">Luan Santos</a>
+        <h3 class="titulo-api">API Consultada:</h3>
+        <a href="https://pokeapi.co/">
+            <img class="logo-pokeapi" src="./imagens/pokeapi.png" alt="logo-pokeapi">
+        </a>
+    </footer>
+    <script type="module" src="./src/index.js"></script>
+</body>
+</html>

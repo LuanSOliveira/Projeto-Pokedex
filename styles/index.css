@@ -1,0 +1,305 @@
+body {
+    background-image: linear-gradient(45deg, rgb(61, 41, 41), rgb(136, 42, 42));
+    font-family: 'Press Start 2P', cursive;
+}
+
+button {
+    font-family: 'Press Start 2P', cursive;
+}
+
+header{
+    padding: 25px;
+    text-align: center;
+}
+
+footer{
+    background: rgba(116, 113, 113, 0.493);
+    padding: 20px;
+}
+
+.titulo{
+    color: azure;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 45px;
+    margin-bottom: 18px;
+}
+
+.mensagem{
+    color: azure;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-bottom: 8px;
+}
+
+.btn-gen{
+    padding: 12px;
+    font-size: 20px;
+}
+
+.container {
+    background-color: rgb(227, 235, 235);
+    box-shadow: 9px 6px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    width: 50%;
+    height: 315px;
+    margin-left: 23%;
+    margin-right: 25%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding: 3%;
+}
+
+.informacoes-poke{
+    margin-top: 15px;
+    display: flex;
+}
+
+.container-info{
+    margin-left: 5px;
+    margin-right: 15%;
+}
+
+.info-status {
+    margin: 15px;
+}
+
+.status{
+    margin: 8px;
+}
+
+.tipo-bug{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(123, 212, 71);
+}
+
+.tipo-dark{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(41, 41, 51);
+}
+
+.tipo-dragon{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(50, 68, 173);
+}
+
+.tipo-electric{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(184, 181, 0);
+}
+
+.tipo-fairy{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(243, 167, 239);
+}
+
+.tipo-fighting{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(126, 27, 27);
+}
+
+.tipo-fire{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(255, 104, 35);
+}
+
+.tipo-flying{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(117, 195, 219);
+}
+
+.tipo-ghost{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(57, 28, 83);
+}
+
+.tipo-grass{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(22, 150, 44);
+}
+
+.tipo-ground{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(211, 169, 56);
+}
+
+.tipo-ice{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(154, 244, 250);
+}
+
+.tipo-normal{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(122, 122, 122);
+}
+
+.tipo-poison{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(133, 63, 212);
+}
+
+.tipo-psychic{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(214, 55, 193);
+}
+
+.tipo-rock{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: rgb(255, 255, 255);
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(128, 77, 2);
+}
+
+.tipo-steel{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(189, 189, 189);
+}
+
+.tipo-water{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+    margin: 15px;
+    width: 128px;
+    background-color: rgb(21, 38, 194);
+}
+
+.link-criador{
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+}
+
+.titulo-criador{
+    margin-bottom: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+}
+
+.titulo-api{
+    margin-top: 35px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+}
+
+.logo-pokeapi{
+    width: 150px;
+    margin-top: 10px;
+}
